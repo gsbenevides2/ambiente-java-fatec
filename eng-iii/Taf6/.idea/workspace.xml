@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="928be415-da0f-4391-8c79-dea71c742b18" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../DecoratorCarros/src/main/java/com/gsbenevides2/carros/Acessorio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DecoratorCarros/src/main/java/com/gsbenevides2/carros/AirBag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DecoratorCarros/src/main/java/com/gsbenevides2/carros/Alarme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DecoratorCarros/src/main/java/com/gsbenevides2/carros/AltoFalante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DecoratorCarros/src/main/java/com/gsbenevides2/carros/Gol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DecoratorCarros/src/main/java/com/gsbenevides2/carros/HRV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DecoratorCarros/src/main/java/com/gsbenevides2/carros/Multimidia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DecoratorCarros/src/main/java/com/gsbenevides2/carros/Palio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DecoratorCarros/src/main/java/com/gsbenevides2/carros/ProtetorCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DecoratorCarros/src/main/java/com/gsbenevides2/carros/Radio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DecoratorCarros/src/main/java/com/gsbenevides2/carros/SensorPorta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DecoratorCarros/src/main/java/com/gsbenevides2/carros/Twiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DecoratorCarros/src/main/java/com/gsbenevides2/carros/Veiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DecoratorCarros/src/main/java/com/gsbenevides2/carros/WRV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DecoratorExercicios/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DecoratorExercicios/src/main/java/com/gsbenevides2/bar/Acucar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DecoratorExercicios/src/main/java/com/gsbenevides2/bar/Cachaca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DecoratorExercicios/src/main/java/com/gsbenevides2/bar/Coquetel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DecoratorExercicios/src/main/java/com/gsbenevides2/bar/CoquetelDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DecoratorExercicios/src/main/java/com/gsbenevides2/bar/Limao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DecoratorExercicios/src/main/java/com/gsbenevides2/bar/Refrigerante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DecoratorExercicios/src/main/java/com/gsbenevides2/bar/Suco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DecoratorExercicios/src/main/java/com/gsbenevides2/bar/Vodka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FactorySanduiche/src/main/java/com/gsbenevides2/sanduiche/LauchStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FactorySanduiche/src/main/java/com/gsbenevides2/sanduiche/Sanduiche.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FactorySanduiche/src/main/java/com/gsbenevides2/sanduiche/SimpleSanduicheFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FactorySanduiche/src/main/java/com/gsbenevides2/sanduiche/XBacon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FactorySanduiche/src/main/java/com/gsbenevides2/sanduiche/XCalabresa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FactorySanduiche/src/main/java/com/gsbenevides2/sanduiche/XEgg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FactorySanduiche/src/main/java/com/gsbenevides2/sanduiche/XSalada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PotatoStore/src/main/java/org/example/Cheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PotatoStore/src/main/java/org/example/PotatoIngredientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PotatoStore/src/main/java/org/example/PotatoStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PotatoStore/src/main/java/org/example/Sauce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PotatoStore/src/main/java/org/example/StoreSmallPotato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PotatoStore/src/main/java/org/example/Strogonoff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Taf1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Taf1/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Taf2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Taf2/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Taf2/src/main/java/org/example/Cachorro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Taf2/src/main/java/org/example/CachorroDoberman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Taf2/src/main/java/org/example/CachorroPudo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Taf2/src/main/java/org/example/LatirAtencao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Taf2/src/main/java/org/example/LatirComportamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Taf2/src/main/java/org/example/LatirNervoso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Taf2/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Taf2/src/main/java/org/example/PularAlto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Taf2/src/main/java/org/example/PularBaixo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Taf2/src/main/java/org/example/PularComportamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Taf2/src/main/java/org/example/PularMedio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Taf3/src/main/java/org/example/Frete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Taf3/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Taf3/src/main/java/org/example/Normal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Taf3/src/main/java/org/example/Sedex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Taf3/src/main/java/org/example/Sedex10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Taf3/src/main/java/org/example/TipoFrete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Taf5/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Taf5/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Taf5/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Taf5/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Taf5/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Taf5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Taf5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Taf5/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassesAbstratasEInterfaces/bin/Cadastros.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassesAbstratasEInterfaces/bin/Conexao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassesAbstratasEInterfaces/bin/Endrerecos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassesAbstratasEInterfaces/bin/Funcionarios.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassesAbstratasEInterfaces/src/Cadastros.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassesAbstratasEInterfaces/src/Conexao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassesAbstratasEInterfaces/src/Endrerecos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassesAbstratasEInterfaces/src/Funcionarios.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StrategyCorreios/bin/Frete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StrategyCorreios/bin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StrategyCorreios/bin/Normal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StrategyCorreios/bin/Sedex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StrategyCorreios/bin/Sedex10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StrategyCorreios/bin/TipoFrete$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StrategyCorreios/bin/TipoFrete$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StrategyCorreios/bin/TipoFrete$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StrategyCorreios/bin/TipoFrete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StrategyCorreios/src/Frete.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StrategyCorreios/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StrategyCorreios/src/Normal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StrategyCorreios/src/Sedex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StrategyCorreios/src/Sedex10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StrategyCorreios/src/TipoFrete.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StratergyDog/bin/Cachorro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StratergyDog/bin/CachorroDoberman.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StratergyDog/bin/CachorroPudo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StratergyDog/bin/LatirAtencao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StratergyDog/bin/LatirComportamento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StratergyDog/bin/LatirNervoso.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StratergyDog/bin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StratergyDog/bin/PularAlto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StratergyDog/bin/PularBaixo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StratergyDog/bin/PularComportamento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StratergyDog/bin/PularMedio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StratergyDog/src/Cachorro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StratergyDog/src/CachorroDoberman.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StratergyDog/src/CachorroPudo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StratergyDog/src/LatirAtencao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StratergyDog/src/LatirComportamento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StratergyDog/src/LatirNervoso.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StratergyDog/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StratergyDog/src/PularAlto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StratergyDog/src/PularBaixo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StratergyDog/src/PularComportamento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StratergyDog/src/PularMedio.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Nezl62SWk53EQUVWUNUaiFcLSy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/gsbenevides2/Área de Trabalho/Programação/eng-iii/Taf6",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="Taf5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="928be415-da0f-4391-8c79-dea71c742b18" name="Changes" comment="" />
+      <created>1680039486211</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680039486211</updated>
+      <workItem from="1680039487816" duration="1256000" />
+      <workItem from="1683573922583" duration="657000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

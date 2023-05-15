@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ae8373e4-1910-42d5-be8b-4f5d18302d6c" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2O429CHQ8XDGnNDQ1gnAVuJSxUr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/gsbenevides2/Área de Trabalho/Programação/AulasPOO/AulaFolhaDePagamento",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.java in AulaFolhaDePagamento">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="AulaFolhaDePagamento" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FolhaDePagamentoTest.creationalTestForProfessor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AulaFolhaDePagamento" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gsbenevides2.folhaDePagamento.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gsbenevides2.folhaDePagamento" />
+      <option name="MAIN_CLASS_NAME" value="com.gsbenevides2.folhaDePagamento.FolhaDePagamentoTest" />
+      <option name="METHOD_NAME" value="creationalTestForProfessor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.gsbenevides2.folhaDePagamento in AulaFolhaDePagamento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AulaFolhaDePagamento" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gsbenevides2.folhaDePagamento.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gsbenevides2.folhaDePagamento" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="folhaDePagamento in AulaFolhaDePagamento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AulaFolhaDePagamento" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/com/gsbenevides2/folhaDePagamento" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java in AulaFolhaDePagamento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AulaFolhaDePagamento" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.java in AulaFolhaDePagamento" />
+        <item itemvalue="JUnit.folhaDePagamento in AulaFolhaDePagamento" />
+        <item itemvalue="JUnit.com.gsbenevides2.folhaDePagamento in AulaFolhaDePagamento" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.FolhaDePagamentoTest.creationalTestForProfessor" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae8373e4-1910-42d5-be8b-4f5d18302d6c" name="Changes" comment="" />
+      <created>1680805381819</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680805381819</updated>
+      <workItem from="1680805393210" duration="3137000" />
+      <workItem from="1680808578347" duration="875000" />
+      <workItem from="1681147155411" duration="44000" />
+      <workItem from="1682007080778" duration="1910000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AulaFolhaDePagamento$java_in_AulaFolhaDePagamento.ic" NAME="java in AulaFolhaDePagamento Coverage Results" MODIFIED="1680808939960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AulaFolhaDePagamento$com_gsbenevides2_folhaDePagamento_in_AulaFolhaDePagamento.ic" NAME="com.gsbenevides2.folhaDePagamento in AulaFolhaDePagamento Coverage Results" MODIFIED="1680806414635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.gsbenevides2.folhaDePagamento.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AulaFolhaDePagamento$folhaDePagamento_in_AulaFolhaDePagamento.ic" NAME="folhaDePagamento in AulaFolhaDePagamento Coverage Results" MODIFIED="1680808887119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

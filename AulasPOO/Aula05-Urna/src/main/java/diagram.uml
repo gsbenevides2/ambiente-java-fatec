@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="28.0" y="231.5">com.gsbenevides2.Urna.Candidato</node>
+    <node x="251.0" y="629.0">com.gsbenevides2.Urna.VotoCandidato</node>
+    <node x="44.0" y="887.5">com.gsbenevides2.Urna.UrnaEletronica</node>
+    <node x="528.0" y="9.5">com.gsbenevides2.Urna.Cargo</node>
+    <node x="501.0" y="629.0">com.gsbenevides2.Urna.VotoNulo</node>
+    <node x="674.0" y="629.0">com.gsbenevides2.Urna.VotoBranco</node>
+    <node x="5.5" y="571.0">com.gsbenevides2.Urna.Eleitor</node>
+    <node x="-83.5" y="330.0">com.gsbenevides2.Urna.Voto</node>
+    <node x="86.0" y="-14.0">com.gsbenevides2.Urna.Partido</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gsbenevides2.Urna.UrnaEletronica" target="com.gsbenevides2.Urna.Cargo" relationship="TO_MANY">
+      <point x="-0.0" y="-216.5" />
+      <point x="260.0" y="814.5" />
+      <point x="485.0" y="814.5" />
+      <point x="485.0" y="64.0" />
+      <point x="-92.0" y="-0.0" />
+    </edge>
+    <edge source="com.gsbenevides2.Urna.UrnaEletronica" target="com.gsbenevides2.Urna.Eleitor" relationship="TO_MANY">
+      <point x="-140.0" y="-216.5" />
+      <point x="-0.0" y="113.0" />
+    </edge>
+    <edge source="com.gsbenevides2.Urna.Candidato" target="com.gsbenevides2.Urna.Cargo" relationship="TO_ONE">
+      <point x="152.0" y="-0.0" />
+      <point x="485.0" y="344.0" />
+      <point x="485.0" y="64.0" />
+      <point x="-92.0" y="-0.0" />
+    </edge>
+    <edge source="com.gsbenevides2.Urna.UrnaEletronica" target="com.gsbenevides2.Urna.VotoNulo" relationship="CREATE">
+      <point x="216.0" y="-15.0" />
+      <point x="580.0" y="1089.0" />
+      <point x="-0.0" y="55.0" />
+    </edge>
+    <edge source="com.gsbenevides2.Urna.UrnaEletronica" target="com.gsbenevides2.Urna.Voto" relationship="TO_MANY">
+      <point x="-216.0" y="15.0" />
+      <point x="-116.0" y="1119.0" />
+      <point x="-116.0" y="344.0" />
+      <point x="-43.5" y="-0.0" />
+    </edge>
+    <edge source="com.gsbenevides2.Urna.Candidato" target="com.gsbenevides2.Urna.Partido" relationship="TO_ONE">
+      <point x="-0.0" y="-112.5" />
+      <point x="-0.0" y="78.0" />
+    </edge>
+    <edge source="com.gsbenevides2.Urna.VotoNulo" target="com.gsbenevides2.Urna.Voto" relationship="REALIZATION">
+      <point x="-40.0" y="-55.0" />
+      <point x="540.0" y="604.0" />
+      <point x="420.0" y="604.0" />
+      <point x="420.0" y="484.0" />
+      <point x="-17.66666666666663" y="484.0" />
+      <point x="22.333333333333343" y="14.0" />
+    </edge>
+    <edge source="com.gsbenevides2.Urna.VotoNulo" target="com.gsbenevides2.Urna.Cargo" relationship="TO_ONE">
+      <point x="-79.0" y="-0.0" />
+      <point x="485.0" y="684.0" />
+      <point x="485.0" y="64.0" />
+      <point x="-92.0" y="-0.0" />
+    </edge>
+    <edge source="com.gsbenevides2.Urna.UrnaEletronica" target="com.gsbenevides2.Urna.VotoCandidato" relationship="CREATE">
+      <point x="100.0" y="-216.5" />
+      <point x="-0.0" y="55.0" />
+    </edge>
+    <edge source="com.gsbenevides2.Urna.VotoCandidato" target="com.gsbenevides2.Urna.Voto" relationship="REALIZATION">
+      <point x="60.0" y="-55.0" />
+      <point x="420.0" y="484.0" />
+      <point x="-17.66666666666663" y="484.0" />
+      <point x="22.333333333333343" y="14.0" />
+    </edge>
+    <edge source="com.gsbenevides2.Urna.UrnaEletronica" target="com.gsbenevides2.Urna.VotoBranco" relationship="CREATE">
+      <point x="216.0" y="-0.0" />
+      <point x="760.0" y="1104.0" />
+      <point x="-0.0" y="55.0" />
+    </edge>
+    <edge source="com.gsbenevides2.Urna.VotoBranco" target="com.gsbenevides2.Urna.Cargo" relationship="TO_ONE">
+      <point x="-0.0" y="-55.0" />
+      <point x="760.0" y="425.5" />
+      <point x="485.0" y="425.5" />
+      <point x="485.0" y="64.0" />
+      <point x="-92.0" y="-0.0" />
+    </edge>
+    <edge source="com.gsbenevides2.Urna.VotoBranco" target="com.gsbenevides2.Urna.Voto" relationship="REALIZATION">
+      <point x="-40.0" y="-55.0" />
+      <point x="720.0" y="604.0" />
+      <point x="420.0" y="604.0" />
+      <point x="420.0" y="484.0" />
+      <point x="-17.66666666666663" y="484.0" />
+      <point x="22.333333333333343" y="14.0" />
+    </edge>
+    <edge source="com.gsbenevides2.Urna.VotoCandidato" target="com.gsbenevides2.Urna.Candidato" relationship="TO_ONE">
+      <point x="-3.5" y="-55.0" />
+      <point x="356.5" y="578.5" />
+      <point x="376.0" y="578.5" />
+      <point x="376.0" y="407.5" />
+      <point x="152.0" y="63.5" />
+    </edge>
+    <edge source="com.gsbenevides2.Urna.UrnaEletronica" target="com.gsbenevides2.Urna.Candidato" relationship="TO_MANY">
+      <point x="-216.0" y="-0.0" />
+      <point x="-101.0" y="1104.0" />
+      <point x="-101.0" y="499.0" />
+      <point x="376.0" y="499.0" />
+      <point x="376.0" y="407.5" />
+      <point x="152.0" y="63.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.614760147601476" showDependencies="true" x="383.0" y="663.5" />
+  <SelectedNodes>
+    <node>com.gsbenevides2.Urna.VotoBranco</node>
+    <node>com.gsbenevides2.Urna.Cargo</node>
+    <node>com.gsbenevides2.Urna.Eleitor</node>
+    <node>com.gsbenevides2.Urna.Partido</node>
+    <node>com.gsbenevides2.Urna.VotoNulo</node>
+    <node>com.gsbenevides2.Urna.VotoCandidato</node>
+    <node>com.gsbenevides2.Urna.Voto</node>
+    <node>com.gsbenevides2.Urna.UrnaEletronica</node>
+    <node>com.gsbenevides2.Urna.Candidato</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

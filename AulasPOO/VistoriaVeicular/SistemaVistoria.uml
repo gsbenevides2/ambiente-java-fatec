@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/home/gsbenevides2/Área de Trabalho/Programação/AulasPOO/VistoriaVeicular/src/main/java/com/gsbenevides2/poo/tarde/SistemaVistoria</OriginalElement>
+  <nodes>
+    <node x="739.0" y="647.0">com.gsbenevides2.poo.tarde.SistemaVistoria.RespostaFornecedor</node>
+    <node x="-333.4573547589617" y="632.0">com.gsbenevides2.poo.tarde.SistemaVistoria.Sistema</node>
+    <node x="654.0" y="317.0">com.gsbenevides2.poo.tarde.SistemaVistoria.RespostaFornecedorDetran</node>
+    <node x="301.5" y="310.0">com.gsbenevides2.poo.tarde.SistemaVistoria.SituacaoDoVeiculo</node>
+    <node x="-149.0" y="58.0">com.gsbenevides2.poo.tarde.SistemaVistoria.Fornecedor</node>
+    <node x="270.5" y="620.0">com.gsbenevides2.poo.tarde.SistemaVistoria.Consulta</node>
+    <node x="691.0" y="-16.0">com.gsbenevides2.poo.tarde.SistemaVistoria.FornecedorDetran</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gsbenevides2.poo.tarde.SistemaVistoria.Sistema" target="com.gsbenevides2.poo.tarde.SistemaVistoria.Consulta" relationship="TO_MANY">
+      <point x="0.0" y="92.0" />
+      <point x="-162.45735475896169" y="987.4981458590852" />
+      <point x="442.0" y="987.4981458590852" />
+      <point x="0.0" y="104.0" />
+    </edge>
+    <edge source="com.gsbenevides2.poo.tarde.SistemaVistoria.FornecedorDetran" target="com.gsbenevides2.poo.tarde.SistemaVistoria.RespostaFornecedorDetran" relationship="CREATE">
+      <point x="0.0" y="140.0" />
+      <point x="0.0" y="-127.0" />
+    </edge>
+    <edge source="com.gsbenevides2.poo.tarde.SistemaVistoria.Consulta" target="com.gsbenevides2.poo.tarde.SistemaVistoria.RespostaFornecedor" relationship="TO_MANY">
+      <point x="171.5" y="0.0" />
+      <point x="-143.0" y="0.0" />
+    </edge>
+    <edge source="com.gsbenevides2.poo.tarde.SistemaVistoria.RespostaFornecedorDetran" target="com.gsbenevides2.poo.tarde.SistemaVistoria.Consulta" relationship="TO_ONE">
+      <point x="-228.0" y="0.0" />
+      <point x="442.0" y="444.0" />
+      <point x="0.0" y="-104.0" />
+    </edge>
+    <edge source="com.gsbenevides2.poo.tarde.SistemaVistoria.Sistema" target="com.gsbenevides2.poo.tarde.SistemaVistoria.Consulta" relationship="CREATE">
+      <point x="171.0" y="0.0" />
+      <point x="-171.5" y="0.0" />
+    </edge>
+    <edge source="com.gsbenevides2.poo.tarde.SistemaVistoria.RespostaFornecedorDetran" target="com.gsbenevides2.poo.tarde.SistemaVistoria.RespostaFornecedor" relationship="REALIZATION">
+      <point x="0.0" y="127.0" />
+      <point x="0.0" y="-77.0" />
+    </edge>
+    <edge source="com.gsbenevides2.poo.tarde.SistemaVistoria.FornecedorDetran" target="com.gsbenevides2.poo.tarde.SistemaVistoria.Fornecedor" relationship="REALIZATION">
+      <point x="-191.0" y="0.0" />
+      <point x="191.0" y="0.0" />
+    </edge>
+    <edge source="com.gsbenevides2.poo.tarde.SistemaVistoria.Sistema" target="com.gsbenevides2.poo.tarde.SistemaVistoria.Fornecedor" relationship="TO_MANY">
+      <point x="0.0" y="-92.0" />
+      <point x="-162.45735475896169" y="411.0" />
+      <point x="42.0" y="411.0" />
+      <point x="0.0" y="66.0" />
+    </edge>
+  </edges>
+  <settings layout="Compact" zoom="0.9341801385681293" showDependencies="true" x="490.4999999999999" y="636.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

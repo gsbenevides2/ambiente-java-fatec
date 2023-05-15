@@ -1,0 +1,65 @@
+{
+	"detran":[
+		{
+			"id":"BXK0H27",
+			"resposta":"IPVA_ATRASADO"
+		},
+		{
+			"id":"BXK0H28",
+			"resposta":"DPVAT_ATRASADO"
+		},
+		{
+			"id": "BXK0H29",
+			"resposta": "MULTAS_PENDENTES"
+		},
+		{
+			"id":"BXK0H30",
+			"resposta":"LICENCIAMENTO_ATRASADO"
+		},
+		{
+			"id":"BXK0H31",
+			"resposta":"NADA_CONSTA"
+		},
+		{
+			"id":"BXK0H32",
+			"resposta":"VEICULO_NAO_ENCONTRADO"
+		},
+		{
+			"id":"BXK0H33",
+			"resposta":"FURTO_PROCURADO"
+		}
+
+	],
+	"senatran": [
+		{
+			"id": "BXK0H27",
+			"resposta": "SP-IPVA"
+		},
+		{
+			"id":"BXK0H28",
+			"resposta":"MG-DPVAT"
+		},
+		{
+			"id":"BXK0H29",
+			"resposta":"RJ-INFRACOES"
+		},
+		{
+			"id":"BXK0H30",
+			"resposta":"MG-LICENCIAMENTO"
+		},
+		{
+			"id":"BXK0H31",
+			"resposta":"OK"
+		},
+		{
+			"id":"BXK0H32",
+			"resposta":"VEICULO_NAO_ENCONTRADO"
+		},
+		{
+			"id":"BXK0H33",
+			"resposta":"BA-POLICIA"
+		}
+
+
+	]
+}

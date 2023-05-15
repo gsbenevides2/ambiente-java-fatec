@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>7</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>35</x>
+      <y>602</y>
+      <w>427</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>GerenciadorDeContas
+--
+
+--
+_+abrirConta(String titular, String numero, ChavePix chavePix):void_
+_+abrirConta(String titular, String numero, BigDecimal saldoInicial, ChavePix chavePix):void_
+_#buscarConta(String numero):ContaCorrente_
+_#buscarConta(ChavePix chavePix):ContaCorrente_
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>420</x>
+      <y>434</y>
+      <w>294</w>
+      <h>119</h>
+    </coordinates>
+    <panel_attributes>ChavePix
+--
+-chave: String
+-tipoChavePix: TipoChavePix
+--
++&lt;&lt;create&gt;&gt;ChavePix(String chave, TipoChavePix tipoChavePix)
++getChave():String
++getTipoChavePix():TipoChavePix
+-setChave(String chave):void
+-setTipoChavePix(TipoChavePix tipoChavePix):void
++equals(ChavePix chavePix):boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>784</x>
+      <y>441</y>
+      <w>427</w>
+      <h>147</h>
+    </coordinates>
+    <panel_attributes>Boleto
+--
+-codigoDeBarras: String
+-valor:BigDecimal
+-dataDeVencimento:LocalDate
+--
++&lt;&lt;create&gt;Boleto(String codigoDeBarras, BigDecimal valor, LocalDate dataDeVencimento)
++getCodigoDeBarras():String
++getValor():BigDecimal
++getDataDeVencimento():LocalDate
+-setCodigoDeBarras(String codigoDeBarras):void
+-setValor(BigDecimal valor):void
+-setDataDeVencimento(LocalDate dataDeVencimento):void
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1225</x>
+      <y>476</y>
+      <w>133</w>
+      <h>119</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;enum&gt;&gt;
+TipoOperacao
+--
+SAQUE
+DEPOSITO
+TRANSFERENCIA_RECEBIDA
+TRANSFERENCIA_ENVIADA
+BOLETO
+PIX_RECEBIDO
+PIX_ENVIADO
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>749</x>
+      <y>98</y>
+      <w>609</w>
+      <h>266</h>
+    </coordinates>
+    <panel_attributes>Transacao
+--
+-dataHora: LocalDateTime
+-saldoAntes: BigDecimal
+-valor: BigDecimal
+--
++&lt;&lt;create&gt;&gt;Transacao(TipoOperacao tipoOperacao, BigDecimal valor, BigDecimal saldoAntes)
++&lt;&lt;create&gt;&gt;Transacao(TipoOperacao tipoOperacao, BigDecimal valor, ContaCorrente outraContaEnvolvida, BigDecimal saldoAntes)
++&lt;&lt;create&gt;&gt;Transacao(TipoOperacao tipoOperacao, BigDecimal valor, ChavePix chavePixEnvolvida, BigDecimal saldoAntes)
++&lt;&lt;create&gt;&gt;Transacao(Boleto boleto, BigDecimal saldoAntes)
++getDataHora():LocalDateTime
++getValor():BigDecimal
++getOutraContaEnvolvida():ContaCorrente
++getChavePixEnvolvida():ChavePix
++getTipoOperacao():TipoOperacao
++getSaldoAntes():BigDecimal
++getBoletoEnvolvido():Boleto
+-setDataHora(LocalDateTime dataHora):void
+-setValor(BigDecimal valor):void
+-setOutraContaEnvolvida(ContaCorrente outraContaEnvolvida):void
+-setChavePixEnvolvida(ChavePix chavePixEnvolvida):void
+-setTipoOperacao(TipoOperacao tipoOperacao):void
+-setSaldoAntes(BigDecimal saldoAntes):void
+-setBoletoEnvolvido(Boleto boleto):void
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>546</x>
+      <y>602</y>
+      <w>77</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;enum&gt;&gt;
+TipoChavePix
+--
+CPF
+EMAIL
+CELULAR
+ALEATORIA
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>77</x>
+      <y>84</y>
+      <w>469</w>
+      <h>294</h>
+    </coordinates>
+    <panel_attributes>ContaCorrente
+--
+-titular: String
+-numero: String
+-saldo: BigDecimal
+--
+#&lt;&lt;create&gt;&gt;ContaCorrente(String titular, String numero, ChavePix chavePix)
+#&lt;&lt;create&gt;&gt;ContaCorrente(String titular, String numero, BigDecimal saldoInicial, ChavePix chavePix)
++getNumero():String
++getSaldo():BigDecimal
++getTransacoes():List&lt;Transacao&gt;
++getChavePix():ChavePix
++getTitular():String
+-setNumero(String numero):void
+-setSaldo(BigDecimal saldo):void
+-setChavePix(ChavePix chavePix):void
+-setTitular(String titular):void
+-debitar(BigDecimal valor):void
+-creditar(BigDecimal valor):void
++sacar(BigDecimal valor):void
++depositar(BigDecimal valor):void
++enviarTransferencia(String numeroDaContaDestino, BigDecimal valor):void
+-receberTransferencia(String origem, BigDecimal valor):void
++pagarBoleto(Boleto boleto):void
++enviarPix(ChavePix chaveDestino, BigDecimal valor):void
+-receberPix(ChavePix chaveOrigem, BigDecimal valor):void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>539</x>
+      <y>217</y>
+      <w>224</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+m2=0..*</panel_attributes>
+    <additional_attributes>10.0;10.0;300.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>539</x>
+      <y>175</y>
+      <w>224</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+m2=0..1</panel_attributes>
+    <additional_attributes>300.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1302</x>
+      <y>357</y>
+      <w>28</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+m2=1</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>574</x>
+      <y>546</y>
+      <w>28</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+m2=1</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>469</x>
+      <y>371</y>
+      <w>35</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+m2=0..1</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>875</x>
+      <y>357</y>
+      <w>35</w>
+      <h>98</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+m2=0..1</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>637</x>
+      <y>329</y>
+      <w>126</w>
+      <h>119</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+m2=0..1</panel_attributes>
+    <additional_attributes>160.0;10.0;10.0;10.0;10.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>238</x>
+      <y>371</y>
+      <w>35</w>
+      <h>245</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+m2=0..*</panel_attributes>
+    <additional_attributes>10.0;330.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
